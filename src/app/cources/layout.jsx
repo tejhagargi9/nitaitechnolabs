@@ -1,11 +1,5 @@
+const CourcesLayout = ({ children }) => {
+  return <div>{children}</div>;
+};
 
-const CourcesLayout = ({children}) => {
-    return (
-      <div>
-        {children}
-      </div>
-    )
-  }
-  
-  export default CourcesLayout
-  
+export default CourcesLayout;

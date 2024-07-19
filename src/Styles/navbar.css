@@ -1,21 +1,28 @@
-* {
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
-.navConatiner  {
-    padding: 1vw 2vw;
-    /* border: 2px solid red; */
+
+.navbar{
+    z-index: 100;
     display: flex;
+    top: 0;
+    position: sticky;
     justify-content: space-between;
     align-items: center;
-
-
+    padding: 0.5rem 2rem;
+    background: #f3f3f3;
 }
-.navPart2 {
-    /* border: 2px solid red; */
+
+.navbarLogo{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 4vw;
+    gap: 1rem;
+}
+
+.navbarItems{
+    display: flex;
+    gap: 1rem;
 }
