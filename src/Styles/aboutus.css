@@ -11,6 +11,10 @@
   font-weight: bold;
   line-height: 4rem;
   text-align: center;
+  font-family: system-ui;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
 }
 .aboutUsPara span{
   font-weight: bold;

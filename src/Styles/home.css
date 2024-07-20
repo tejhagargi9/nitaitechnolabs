@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap'); 
+
 *{
   margin: 0;
   padding: 0;
@@ -19,22 +21,27 @@
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,190,255,1) 0%, rgba(145,216,240,1) 0%, rgba(163,229,250,1) 0%, rgba(195,238,255,1) 1%, rgba(217,242,247,1) 100%, rgba(205,240,252,1) 100%, rgba(0,164,225,1) 100%, rgba(2,38,80,1) 100%, rgba(5,38,113,1) 100%, rgba(9,9,121,1) 100%, rgba(7,58,154,1) 100%);
 }
-
 #heading{
-    font-size: 4vw;
-    font-family: system-ui;
-    font-weight: bold;
-    line-height: 4rem;
-    width: 80%;
-    text-align: center;
+  font-size: 4vw;
+  font-family: system-ui;
+  font-weight: bold;
+  line-height: 4rem;
+  width: 80%;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  margin: 2vw 0;
+  text-align: center;
 }
 
 #para{
-    text-align: center;
-    font-size: 1.7vw;
-    font-family: cursive;
-    color: #3e3e3e;
-    width: 90%;
+margin: 1vw 0;
+  text-align: center;
+  font-size: 1.7vw;
+  font-family: cursive;
+  color: #3e3e3e;
+  width: 90%;
 }
 
 .homeBtnContainer {
@@ -171,8 +178,11 @@
 }
 .aboutUsSection h1{
   font-size: 3vw;
+  
   font-family: system-ui;
+
   font-weight: bold;
+  font-style: normal;
   line-height: 3rem;
 }
 
@@ -221,6 +231,10 @@
 #coursesHeading {
   font-size: 10vw;
   margin: 5vw 0;
+  font-family: system-ui;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
 }
   .coursesSection {
     grid-template-columns: 1fr;
