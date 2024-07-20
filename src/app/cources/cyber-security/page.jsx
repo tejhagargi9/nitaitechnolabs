@@ -1,4 +1,4 @@
-import "@/styles/cyber.css";
+import "@/Styles/cyber.css";
 import Image from "next/image";
 import {
   Card,
