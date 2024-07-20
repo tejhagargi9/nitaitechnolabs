@@ -17,11 +17,11 @@ const Navbar = () => {
         </Link>
 
         <div className="navbarItems">
-          <Button>
-            <Link href="/">Home</Link>
-          </Button>
+          <Link href="/" className="navItem">
+            Home
+          </Link>
           <Menu>
-            <MenuButton as={Button}>Courses v</MenuButton>
+            <MenuButton className="navItem">Courses v</MenuButton>
             <MenuList>
               <MenuItem>
                 <Link href="/cources/cyber-security">Cyber Security</Link>
@@ -36,12 +36,12 @@ const Navbar = () => {
               </MenuItem>
             </MenuList>
           </Menu>
-          <Button>
-            <Link href="/about-us">About Us</Link>
-          </Button>
-          <Button>
-            <Link href="/contact-us">Contact Us</Link>
-          </Button>
+          <Link href="/about-us" className="navItem">
+            About Us
+          </Link>
+          <Link href="/contact-us" className="navItem">
+            Contact Us
+          </Link>
         </div>
       </div>
     </>
