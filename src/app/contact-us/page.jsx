@@ -25,7 +25,7 @@ export default function Contactus() {
                 id="first-name"
                 type="text"
                 autoComplete="given-name"
-                className="block shadow-xl p-2 w-full rounded-md border-gray-300 shadow-sm focus:border-primary focus:ring-0 sm:text-md h-12"
+                className="block shadow-xl p-2 w-full rounded-md border-gray-300 focus:border-primary focus:ring-0 sm:text-md h-12"
                 placeholder="Enter your first name"
               />
             </div>
@@ -40,7 +40,7 @@ export default function Contactus() {
                 id="last-name"
                 type="text"
                 autoComplete="family-name"
-                className="block shadow-xl p-2 w-full rounded-md border-gray-300 shadow-sm focus:border-primary focus:ring-0 sm:text-sm h-12"
+                className="block shadow-xl p-2 w-full rounded-md border-gray-300 focus:border-primary focus:ring-0 sm:text-sm h-12"
                 placeholder="Enter your last name"
               />
             </div>
@@ -56,7 +56,7 @@ export default function Contactus() {
               id="email"
               type="email"
               autoComplete="email"
-              className="block shadow-xl p-2 w-full rounded-md border-gray-300 shadow-sm focus:border-primary focus:ring-0 sm:text-sm h-12"
+              className="block shadow-xl p-2 w-full rounded-md border-gray-300 focus:border-primary focus:ring-0 sm:text-sm h-12"
               placeholder="Enter your email"
             />
           </div>
@@ -70,7 +70,7 @@ export default function Contactus() {
             <textarea
               id="message"
               rows={8}
-              className="block shadow-xl p-2 w-full rounded-md border-gray-300 shadow-sm focus:border-primary focus:ring-0 sm:text-sm"
+              className="block shadow-xl p-2 w-full rounded-md border-gray-300 focus:border-primary focus:ring-0 sm:text-sm"
               placeholder="Enter your message or comments"
             />
           </div>
