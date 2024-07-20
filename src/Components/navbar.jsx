@@ -10,18 +10,18 @@ const Navbar = () => {
         <Link href="/" className="navbarLogo">
           <img src="/images/nitaiLogo.png" alt="" />
           <div>
-            <p>Under</p>
-            <p>Nitai Innovation</p>
-            <p>Private Limited</p>
+            <p id="logoText1">Under</p>
+            <p id="logoText2">Nitai Innovation</p>
+            <p id="logoText3">Private Limited</p>
           </div>
         </Link>
 
         <div className="navbarItems">
-          <Button>
-            <Link href="/">Home</Link>
-          </Button>
+          <Link href="/" className="navItem">
+            Home
+          </Link>
           <Menu>
-            <MenuButton as={Button}>Courses v</MenuButton>
+            <MenuButton className="navItem">Courses</MenuButton>
             <MenuList>
               <MenuItem>
                 <Link href="/cources/cyber-security">Cyber Security</Link>
@@ -36,12 +36,12 @@ const Navbar = () => {
               </MenuItem>
             </MenuList>
           </Menu>
-          <Button>
-            <Link href="/about-us">About Us</Link>
-          </Button>
-          <Button>
-            <Link href="/contact-us">Contact Us</Link>
-          </Button>
+          <Link href="/about-us" className="navItem">
+            About Us
+          </Link>
+          <Link href="/contact-us" className="navItem">
+            Contact Us
+          </Link>
         </div>
       </div>
     </>
