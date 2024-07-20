@@ -51,7 +51,7 @@ const Navbar = () => {
         </Link>
       </div>
 
-      <div className="menuIcon" onClick={toggleMenu} colorScheme="orange">
+      <div className="menuIcon" onClick={toggleMenu}>
         {menuOpen ? "X" : "☰"}
       </div>
       <div className={`menuNavbarItems ${menuOpen ? "showMenu" : ""}`}>

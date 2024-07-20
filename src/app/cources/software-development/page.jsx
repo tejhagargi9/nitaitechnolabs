@@ -55,10 +55,22 @@ const SoftwareDevelopment = () => {
       </div>
       <div className="sdOutcome">
         <div className="outcomeInter">
-        <Code>
-          <p> <b>Program Outcome : </b><br/>
-          At the end of this program, you will be able to Learn the fundamentals of software development to create outstanding apps Clone, then begin modifying a live repository Build scalable back-end infrastructure, Test features with minimal effort and deploy them seamlessly to production. Become an Agile practitioner with the capacity to join a project in progress in your sector rapidly and Create fantastic front-end features. Choose your own stack based on the delivery schedule and requirements. From scratch, create a functioning industrial application.</p>
-        </Code>
+          <Code>
+            <p>
+              {" "}
+              <b>Program Outcome : </b>
+              <br />
+              At the end of this program, you will be able to Learn the
+              fundamentals of software development to create outstanding apps
+              Clone, then begin modifying a live repository Build scalable
+              back-end infrastructure, Test features with minimal effort and
+              deploy them seamlessly to production. Become an Agile practitioner
+              with the capacity to join a project in progress in your sector
+              rapidly and Create fantastic front-end features. Choose your own
+              stack based on the delivery schedule and requirements. From
+              scratch, create a functioning industrial application.
+            </p>
+          </Code>
         </div>
       </div>
       <div className="sdLearn">
@@ -70,32 +82,38 @@ const SoftwareDevelopment = () => {
             <Stack divider={<StackDivider />} spacing="4">
               <Box>
                 <Text pt="2" fontSize="lg">
-                Go from Zero skills to building Powerful Web Applications on a highly professional level using the latest Web Technologies.
+                  Go from Zero skills to building Powerful Web Applications on a
+                  highly professional level using the latest Web Technologies.
                 </Text>
               </Box>
               <Box>
                 <Text pt="2" fontSize="lg">
-                Create real life mobile apps and upload them to the IOS App Store and Google Play.  
+                  Create real life mobile apps and upload them to the IOS App
+                  Store and Google Play.
                 </Text>
               </Box>
               <Box>
                 <Text pt="2" fontSize="lg">
-                Use HTML5, CSS3, Flexbox, Grid & SASS to build website content and add stunning styling and decoration.
+                  Use HTML5, CSS3, Flexbox, Grid & SASS to build website content
+                  and add stunning styling and decoration.
                 </Text>
               </Box>
               <Box>
                 <Text pt="2" fontSize="lg">
-                Use Javascript, jQuery & jQuery User Interface to create Interactive Websites and Games.
+                  Use Javascript, jQuery & jQuery User Interface to create
+                  Interactive Websites and Games.
                 </Text>
               </Box>
               <Box>
                 <Text pt="2" fontSize="lg">
-                Use Back End Technologies like NodeJS, PHP, AJAX, JSON to build dynamic database-driven websites.
+                  Use Back End Technologies like NodeJS, PHP, AJAX, JSON to
+                  build dynamic database-driven websites.
                 </Text>
               </Box>
               <Box>
                 <Text pt="2" fontSize="lg">
-                Use advanced skills to connect your websites to APIs like Google Maps, Facebook, Google plus and Twitter.
+                  Use advanced skills to connect your websites to APIs like
+                  Google Maps, Facebook, Google plus and Twitter.
                 </Text>
               </Box>
             </Stack>

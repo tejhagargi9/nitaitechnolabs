@@ -1,8 +1,98 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box
-}
-.footerContainer {
-    border: 2px solid black;
-}
+.site-footer {
+    padding: 2rem 0;
+    background: linear-gradient(0deg, #c7c7c7, #f4f4f4);
+  }
+  
+  .footer-widgets {
+    padding: 2rem 0;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .row {
+    display: flex;
+    gap: 5vw;
+    flex-wrap: wrap;
+  }
+  
+  .footer-column {
+    flex: 1;
+    margin-bottom: 2rem;
+  }
+  
+    .widget-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+        font-family: system-ui;
+  }
+  
+  .textwidget {
+    font-size: 1rem;
+    line-height: 1.5;
+
+  }
+ 
+  
+  .contact-info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+
+  }
+  
+  .contact-text {
+    margin-right: 0.5rem;
+    
+  }
+  
+  .hours li {
+    list-style: none;
+  }
+  
+  .site-info {
+    background-color: #e0e0e0;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 0.875rem;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-column {
+      flex: 1 1 100%;
+    }
+
+    .contact-text {
+        text-align: center;
+        
+      }
+
+      .hours li {
+        text-align: center;
+      }
+  
+      .textwidget {
+   
+        text-align: center;
+    
+      }
+      .widget-title {
+ 
+        text-align: center;
+  }
+     
+    .textwidget,
+    .hours li {
+      font-size: 0.875rem;
+    }
+    .contact-info-item {
+      
+        justify-content: center;
+    
+      }
+  }
+  
