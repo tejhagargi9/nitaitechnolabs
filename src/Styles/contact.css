@@ -1,0 +1,8 @@
+@media screen and (max-width: 800px) {
+   .headerContact{
+    font-size: 10vw;
+   } 
+   .descp {
+    font-size: 25px;
+   }
+}
