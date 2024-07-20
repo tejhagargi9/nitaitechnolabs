@@ -1,0 +1,47 @@
+.aboutUsContainer{
+  padding: 5vw;
+  display: grid;
+  place-items: center;
+}
+
+#aboutUsHeading {
+  font-size: 4vw;
+  color: #28a9a9;
+  font-family: system-ui;
+  font-weight: bold;
+  line-height: 4rem;
+  text-align: center;
+}
+.aboutUsPara span{
+  font-weight: bold;
+  color: #28a9a9;
+
+}
+.aboutUsParaDiv{
+  display: grid;
+  place-items: center;
+}
+.aboutUsPara{
+      text-align: center;
+      font-size: 1.5vw;
+      margin: 3rem 0;
+      font-family: cursive;
+      color: #3e3e3e;
+      width: 80%;
+}
+
+.aboutListHead{
+  font-size: 1.3rem;
+  font-family: system-ui;
+}
+
+
+@media screen and (max-width: 800px) {
+  #aboutUsHeading {
+    font-size: 9vw;
+  }
+  .aboutUsPara{
+    font-size: 4vw;
+    margin-top: 15vw;
+  }
+}

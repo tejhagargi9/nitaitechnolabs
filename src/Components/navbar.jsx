@@ -55,29 +55,33 @@ const Navbar = () => {
         {menuOpen ? "X" : "☰"}
       </div>
       <div className={`menuNavbarItems ${menuOpen ? "showMenu" : ""}`}>
-        <Link href="/" className="navItem">
+        <Link href="/" className="navItem" onClick={toggleMenu}>
           Home
         </Link>
         <Menu>
           <MenuButton className="navItem">Courses</MenuButton>
           <MenuList>
             <MenuItem>
-              <Link href="/cources/cyber-security">Cyber Security</Link>
+              <Link href="/cources/cyber-security" onClick={toggleMenu}>
+                Cyber Security
+              </Link>
             </MenuItem>
             <MenuItem>
-              <Link href="/cources/software-development">
+              <Link href="/cources/software-development" onClick={toggleMenu}>
                 Software Development
               </Link>
             </MenuItem>
             <MenuItem>
-              <Link href="/cources/software-testing">Software Testing</Link>
+              <Link href="/cources/software-testing" onClick={toggleMenu}>
+                Software Testing
+              </Link>
             </MenuItem>
           </MenuList>
         </Menu>
-        <Link href="/about-us" className="navItem">
+        <Link href="/about-us" className="navItem" onClick={toggleMenu}>
           About Us
         </Link>
-        <Link href="/contact-us" className="navItem">
+        <Link href="/contact-us" className="navItem" onClick={toggleMenu}>
           Contact Us
         </Link>
       </div>
