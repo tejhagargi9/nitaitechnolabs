@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sdContainer {
+    min-height: 100vh;
+}
+
+.backdrop {
+    /* border: 2px solid blue; */
+    background: url("/images/sdbanner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sdHead {
+    backdrop-filter: blur(5px);
+    /* border: 2px solid red; */
+    height: 13vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+}
+
+.sdHead h2 {
+    color: white;
+    margin-bottom: 3vw;
+}
+
+.sdImage {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60vw;
+    /* border: 2px solid yellow; */
+    margin-top: 1.8vw;
+    padding: 1vw 0;
+    border-radius: 1.2vw;
+    box-shadow: inset 2px -3px 11px rgba(0, 0, 0, 0.5);
+}
+
+.container img {
+    width: 55vw;
+}
+
+.container h2 {
+    font-size: 2.5vw;
+}
+
+.aboutsd {
+    margin-top: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sdOutcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outcomeInter {
+    width: 80vw;
+    margin-top: 2vw;
+}
+
+.outcomeInter p {
+    font-size: 1.2vw;
+    padding: .5vw .5vw;
+}
+
+.sdLearn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vw;
+}

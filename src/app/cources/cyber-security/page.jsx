@@ -1,5 +1,18 @@
 import "@/styles/cyber.css";
 import Image from "next/image";
+import {
+  Card,
+  CardHeader,
+  CardBody,
+  CardFooter,
+  Heading,
+  Stack,
+  StackDivider,
+  Box,
+  Text,
+  UnorderedList,
+  ListItem,
+} from "@chakra-ui/react";
 const CyberSecurity = () => {
   return (
     <div className="cyberContainer">
@@ -12,7 +25,7 @@ const CyberSecurity = () => {
         <img src="/images/cybersecurity.jpg" alt="" />
       </div>
       <div className="cardContainer">
-        <div className="cyberCard">
+        {/* <div className="cyberCard">
           <p>
             A vulnerability is a weakness in the design, implementation,
             operation, or internal control of a computer or system. Most of the
@@ -23,77 +36,109 @@ const CyberSecurity = () => {
             reverse-engineered, hunted, or exploited using automated tools or
             customized script.
           </p>
-        </div>
+        </div> */}
+        <Card width="80vw">
+          <CardBody>
+            <Text fontSize="1.2vw">
+
+            A vulnerability is a weakness in the design, implementation,
+            operation, or internal control of a computer or system. Most of the
+            vulnerabilities that have been discovered are documented in the
+            Common Vulnerability and Exposures (CVE) database. An exploitable
+            vulnerability is one for which at least one working attack or
+            exploit exists. Vulnerabilities can be researched,
+            reverse-engineered, hunted, or exploited using automated tools or
+            customized script.
+            </Text>
+          </CardBody>
+        </Card>
       </div>
       <div className="cyberManage">
-        <div className="cyberManageCon">
-          <div className="manageHead">
-            <p>
+        <Card width="80vw">
+          <CardHeader>
+            <Heading size="lg">
               To manage the information security culture, five steps should be
               taken: pre-evaluation, strategic planning, operative planning,
               implementation, and post-evaluation.
-            </p>
-          </div>
-          <div className="dot-list">
-            <ul>
-              <li>
-                Pre-evaluation: To identify the awareness of information
-                security within employees and to analyze the current security
-                policies.
-              </li>
-              <li>
-                Strategic planning: To come up with a better awareness program,
-                clear targets need to be set. Assembling a team of skilled
-                professionals is helpful to achieve it.
-              </li>
-              <li>
-                Operative planning: A good security culture can be established
-                based on internal communication, management buy-in, security
-                awareness and a training program.
-              </li>
-              <li>
-                Implementation: Four stages should be used to implement the
-                information security culture. They are:
-              </li>
-            </ul>
-            <ol>
-              <li>Commitment of the management</li>
-              <li>Communication with organizational members</li>
-              <li>Courses for all organizational members</li>
-              <li>Commitment of the employees</li>
-            </ol>
-            <ul>
-              <li>
-                Post-evaluation: To assess the success of the planning and
-                implementation, and to identify unresolved areas of concern.
-              </li>
-            </ul>
-          </div>
-        </div>
+            </Heading>
+          </CardHeader>
+          <CardBody>
+            <Stack divider={<StackDivider />} spacing="4">
+              <Box>
+                <Text pt="2" fontSize="lg">
+                  Pre-evaluation: To identify the awareness of information
+                  security within employees and to analyze the current security
+                  policies.
+                </Text>
+              </Box>
+              <Box>
+                <Text pt="2" fontSize="lg">
+                  Strategic planning: To come up with a better awareness
+                  program, clear targets need to be set. Assembling a team of
+                  skilled professionals is helpful to achieve it.
+                </Text>
+              </Box>
+              <Box>
+                <Text pt="2" fontSize="lg">
+                  Operative planning: A good security culture can be established
+                  based on internal communication, management buy-in, security
+                  awareness and a training program.
+                </Text>
+              </Box>
+              <Box>
+                <Text pt="2" fontSize="lg">
+                  Implementation: Four stages should be used to implement the
+                  information security culture. They are:
+                </Text>
+              </Box>
+              <UnorderedList p={0}>
+                <ListItem>Commitment of the management</ListItem>
+                <ListItem>Communication with organizational members</ListItem>
+                <ListItem>Courses for all organizational members</ListItem>
+                <ListItem>Commitment of the employees</ListItem>
+              </UnorderedList>
+              <Box>
+                <Text pt="2" fontSize="lg">
+                  Post-evaluation: To assess the success of the planning and
+                  implementation, and to identify unresolved areas of concern.
+                </Text>
+              </Box>
+            </Stack>
+          </CardBody>
+        </Card>
       </div>
       <div className="cyberLearn">
-        <div className="cyberLearnCon">
-          <div className="cyberLearnHead">
-            <p>
-            What you’ll learn here is..
-            </p>
-          </div>
-          <div className="dot-list"></div>
-          <ul>
-            <li>
-              Summarize the main purpose of cyber security as a discipline
-            </li>
-            <li>
-              Summarize the basics of identification and authentication in cyber
-              security
-            </li>
-            <li>Explain the pros and cons of security through obscurity</li>
-            <li>
-              Develop a lifelong learning plan for potential careers in cyber
-              security
-            </li>
-          </ul>
-        </div>
+        <Card width="80vw" mb="8vw">
+          <CardHeader>
+            <Heading size="lg">What you’ll learn here is..</Heading>
+          </CardHeader>
+          <CardBody>
+            <Stack divider={<StackDivider />} spacing="4">
+              <Box>
+                <Text pt="2" fontSize="lg">
+                  Summarize the main purpose of cyber security as a discipline
+                </Text>
+              </Box>
+              <Box>
+                <Text pt="2" fontSize="lg">
+                  Summarize the basics of identification and authentication in
+                  cyber security
+                </Text>
+              </Box>
+              <Box>
+                <Text pt="2" fontSize="lg">
+                  Explain the pros and cons of security through obscurity
+                </Text>
+              </Box>
+              <Box>
+                <Text pt="2" fontSize="lg">
+                  Develop a lifelong learning plan for potential careers in
+                  cyber security
+                </Text>
+              </Box>
+            </Stack>
+          </CardBody>
+        </Card>
       </div>
     </div>
   );
