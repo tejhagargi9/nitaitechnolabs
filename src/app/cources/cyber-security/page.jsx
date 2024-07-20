@@ -39,7 +39,7 @@ const CyberSecurity = () => {
         </div> */}
         <Card width="80vw">
           <CardBody>
-            <Text fontSize="1.2vw">
+            <Text fontSize={{ base: "4vw", sm: "2.5vw", md: "2vw", lg: "1.5vw", xl: "1.2vw" }}>
 
             A vulnerability is a weakness in the design, implementation,
             operation, or internal control of a computer or system. Most of the

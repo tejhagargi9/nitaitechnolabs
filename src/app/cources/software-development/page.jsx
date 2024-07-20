@@ -35,20 +35,20 @@ const SoftwareDevelopment = () => {
       <div className="aboutsd">
         <Card width="80vw">
           <CardBody>
-            <Text fontSize="1.2vw">
-              <b>About the course</b> <br />
-              This Full Stack Java Developer program will help you master both
-              front-end and back-end Java technologies and accelerate your
-              career as a Full Stack Software Developer. This course will expose
-              you to basic and advanced concepts of web development. You will
-              get hands-on experience with ReactJS, Spring Boot, Servlets, JSPs,
-              web services, and other critical skills. You will learn how to use
-              JavaScript, and Node.js to build dynamic and interactive websites;
-              write APIs; build web applications using Java; test and deploy
-              code using DevOps; store data using MongoDB; and much more. This
-              course will help advance your career as a full stack developer and
-              help you learn some of the most high-demand skills in the
-              industry.
+            <Text fontSize={{ base: "4vw", sm: "2.5vw", md: "2vw", lg: "1.5vw", xl: "1.2vw" }}>
+                <b>About the course</b> <br />
+                This Full Stack Java Developer program will help you master both
+                front-end and back-end Java technologies and accelerate your
+                career as a Full Stack Software Developer. This course will
+                expose you to basic and advanced concepts of web development.
+                You will get hands-on experience with ReactJS, Spring Boot,
+                Servlets, JSPs, web services, and other critical skills. You
+                will learn how to use JavaScript, and Node.js to build dynamic
+                and interactive websites; write APIs; build web applications
+                using Java; test and deploy code using DevOps; store data using
+                MongoDB; and much more. This course will help advance your
+                career as a full stack developer and help you learn some of the
+                most high-demand skills in the industry.
             </Text>
           </CardBody>
         </Card>
@@ -57,7 +57,7 @@ const SoftwareDevelopment = () => {
         <div className="outcomeInter">
           <Code>
             <p>
-              {" "}
+              {/* {" "} */}
               <b>Program Outcome : </b>
               <br />
               At the end of this program, you will be able to Learn the

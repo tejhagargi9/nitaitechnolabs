@@ -5,6 +5,7 @@
 }
 .stContainer {
     min-height: 100vh;
+    overflow-x: hidden;
 }
 .stbackdrop {
     /* border: 2px solid blue; */
@@ -75,7 +76,17 @@
     margin-top: 2vw;
 }
 @media screen and (max-width: 800px) {
-   h2 {
-    font: optional;
-   } 
+    .stbackdrop, .stHead {
+        height: 120px;
+    }
+    .stHead h2 {
+        font-size: 30px;
+    }
+    .stImage img {
+        height: 200px;
+        width: 350px;
+    }
+    .outcomeInter p {
+        font-size: 14px;
+    }
 }

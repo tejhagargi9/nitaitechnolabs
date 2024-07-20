@@ -126,6 +126,18 @@
 .cyberLearnCon ul {
     padding: 1vw 3vw;
 }
+@media screen and (max-width: 800px) {
+    .cyberBackdrop, .cyberHead {
+        height: 100px;
+    }
+    .cyberHead h2 {
+        font-size: 28px;
+    }
+    .cyberImage img {
+        width: 80vw;
+        height: 50vw;
+    }
+}
 
 
 

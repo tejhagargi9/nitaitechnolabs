@@ -6,6 +6,7 @@
 
 .sdContainer {
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 .backdrop {
@@ -87,4 +88,29 @@
     justify-content: center;
     align-items: center;
     margin-top: 2vw;
+}
+@media screen and (max-width: 800px) {
+    .sdHead h2 {
+        font-size: 30px;
+        
+    }
+    .sdHead {
+        height: 100px;
+
+    }
+    .backdrop {
+        height: 100px;
+    }
+    .container h2 {
+        font-size: 20px;
+    }
+    .container img {
+        width: 80vw;
+    }
+    .aboutsd {
+        font-size: 30px;
+    }
+    .outcomeInter p {
+        font-size: 15px;
+    }
 }

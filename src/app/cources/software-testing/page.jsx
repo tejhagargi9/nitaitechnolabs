@@ -32,7 +32,7 @@ const SoftwareTesting = () => {
       <div className="aboutst">
         <Card width="80vw">
           <CardBody>
-            <Text fontSize="1.2vw">
+            <Text fontSize={{ base: "4vw", sm: "2.5vw", md: "2vw", lg: "1.5vw", xl: "1.2vw" }}>
             This is the course that covers everything that you need to know about software Testing in the IT industry or everything any software tester should be aware of.
             </Text>
           </CardBody>
@@ -41,7 +41,7 @@ const SoftwareTesting = () => {
       <div className="stOutcome">
         <div className="outcomeInter">
         <Code>
-          <p>In this course you will learn all the fundamentals that you need to know about Software Testing from basics to more advanced concepts, so by the end of the course you will have a thorough idea of what actual software testing is and how software testing is carried out in the Real life IT projects.</p>
+          <p className="stPara">In this course you will learn all the fundamentals that you need to know about Software Testing from basics to more advanced concepts, so by the end of the course you will have a thorough idea of what actual software testing is and how software testing is carried out in the Real life IT projects.</p>
         </Code>
         </div>
       </div>
