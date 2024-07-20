@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Zain:wght@200;300;400;700;800;900&display=swap'); 
+
 * {
     margin: 0;
     padding: 0;
@@ -58,7 +60,9 @@
   #logoText1,
   #logoText2,
   #logoText3 {
-    font-family: cursive;
+    font-family: "Zain", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   }
   
   .menuIcon {
@@ -95,7 +99,7 @@
         flex-direction: column;
         gap: 5vw;
         transform: translateX(100vw);
-        background: linear-gradient(45deg, #cfffff, #6dfcfcd4);
+        background: linear-gradient(45deg, #dbffff, #b9f4ffd4);
         transition: transform 0.3s ease-in-out;
     }
   
