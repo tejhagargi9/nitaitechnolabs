@@ -33,8 +33,7 @@ const Home = () => {
       <h1 id="coursesHeading">Courses</h1>
       <div className="coursesSection" id="coursesSection">
         <div className="courses sd">
-          <h1>Software</h1>
-          <h1>Development</h1>
+          <h1>Software Development</h1>
           <p>
             About the course This Full Stack Java Developer program will help
             you master both front-end and back-end Java technologies and
@@ -47,8 +46,7 @@ const Home = () => {
           </Link>
         </div>
         <div className="courses st">
-          <h1>Software</h1>
-          <h1>Testing</h1>
+          <h1>Software Testing</h1>
           <p>
             About the course This Full Stack Java Developer program will help
             you master both front-end and back-end Java technologies and
@@ -61,8 +59,7 @@ const Home = () => {
           </Link>
         </div>
         <div className="courses cs">
-          <h1>Cyber</h1>
-          <h1>Security</h1>
+          <h1>Cyber Security</h1>
           <p>
             About the course This Full Stack Java Developer program will help
             you master both front-end and back-end Java technologies and
@@ -86,7 +83,7 @@ const Home = () => {
             ever-evolving field of technology.
           </p>
           <Button colorScheme="orange" variant="solid">
-            Know more
+            <Link href={"/about-us"}>Know more</Link>
           </Button>
         </div>
         <div>
