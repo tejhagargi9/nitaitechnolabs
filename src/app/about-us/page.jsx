@@ -11,7 +11,7 @@ const AboutUs = () => {
   return (
     <div className="aboutUsContainer">
       <h1 id="aboutUsHeading">About Us</h1>
-      <p class="aboutUsPara">
+      <p className="aboutUsPara">
         At our training institute, we offer a diverse range of programs to cater
         to various needs and interests. We are one of the institutes providing
         assistance and training over different technologies and domains and to
@@ -157,7 +157,7 @@ const AboutUs = () => {
           </AccordionPanel>
         </AccordionItem>
         <div className="aboutUsParaDiv">
-          <h2 class="aboutUsPara">
+          <h2 className="aboutUsPara">
             At <span>NITAI TECHNOLOGICAL TRAINING INSTITUTE</span>, we are
             committed to providing high-quality training, industry-relevant
             curriculum, experienced instructors, and a supportive learning
