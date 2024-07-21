@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Providers>
-          <div className="main">
+          <div className="main" style={{ overflowX: "hidden" }}>
             <Navbar />
             {children}
             <ContactUs />

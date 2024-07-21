@@ -12,13 +12,14 @@
   background: rgb(249, 249, 249);
   overflow-x: hidden;
   scroll-behavior: smooth;
+  overflow-y: hidden;
 
 }
 .mainSection{
   padding: 3vw;
   display: grid;
   position: relative;
-  height: 88vh;
+  height: 100vh;
   overflow-x: hidden;
 
   place-items: center;
@@ -230,6 +231,9 @@ margin: 1vw 0;
   #heading {
     font-size: 8vw;
     width: 100%;
+}
+.mainSection{
+  height: 90vh;
 }
   #para{
     font-size: 5.5vw;
